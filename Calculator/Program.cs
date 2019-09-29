@@ -17,7 +17,7 @@ namespace Calculator
                 while (true)
                 {
                     StringBuilder text = new StringBuilder();
-                    Console.Write("Input expresison (type 'exit' to quit): ");
+                    Console.Write("Input expression (type 'exit' to quit): ");
 
                     input = Console.ReadLine();
                     if(input == "exit")
